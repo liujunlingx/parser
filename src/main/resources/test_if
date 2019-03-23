@@ -1,0 +1,7 @@
+#GET
+#set($a = 1)
+#if(1 == 2)
+    #set($price = 10)
+    #set($date = 2)
+#end
+#wait(50)
