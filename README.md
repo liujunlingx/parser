@@ -1,5 +1,5 @@
 # parser
-this project is designed to parse a script like this
+This project is designed to parse a script like this, similar to what [velocity](https://velocity.apache.org/) can do.
 ```
 #GET
 #set($a = 1)
@@ -20,3 +20,5 @@ current support statements
 - set
 - if elif else
 - for
+- wait (imitate sleep behavior)
+- GET (send http get request)
